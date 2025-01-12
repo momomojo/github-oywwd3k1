@@ -3,10 +3,10 @@ name: Tests
 on: [push, pull_request]
 
 env:
-  PUBLIC_SUPABASE_URL: "https://fake_test_url.supabase.co"
-  PUBLIC_SUPABASE_ANON_KEY: "fake_anon_key"
-  PRIVATE_SUPABASE_SERVICE_ROLE: "fake_service_role"
-  PRIVATE_STRIPE_API_KEY: "fake_strip_api_key"
+ PUBLIC_SUPABASE_URL: "https://yawysqlzgnvvaocdqttt.supabase.co"
+  PUBLIC_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlhd3lzcWx6Z252dmFvY2RxdHR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY3MTMzMDUsImV4cCI6MjA1MjI4OTMwNX0.WHf4IFIa9DB0HKNU_KYGeFyOJTzJ81YgDfn6hgjj_D8"
+  PRIVATE_SUPABASE_SERVICE_ROLE: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlhd3lzcWx6Z252dmFvY2RxdHR0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjcxMzMwNSwiZXhwIjoyMDUyMjg5MzA1fQ.94vK8nFvEo1T6UIPBQksnYrCnD1VCEJvfV5P4vQk8bc"
+  PRIVATE_STRIPE_API_KEY: "pk_test_51PX4HqRrbfpuJcWV14nr1HZSUZGNBykj9p4McrcCWikdD5P08doublfBEfwBiwhMlAxyEfH5neIbbgDSXdvyBSCx00SJo4E8jZ"
 
 jobs:
   build_and_test:
